@@ -37,7 +37,7 @@ If you have [UV](https://github.com/astral-sh/uv) installed, you can install and
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install gh-reinvite as a global tool
-uv tool install git+https://github.com/yourusername/gh-reinvite.git
+uv tool install git+https://github.com/usfca-cs-tools/gh-reinvite.git
 
 # Now use it anywhere
 gh-reinvite owner/repository username
@@ -46,13 +46,13 @@ gh-reinvite owner/repository username
 #### Option 2: Run without installation (one-off usage)
 ```bash
 # Run directly with uvx
-uvx --from git+https://github.com/yourusername/gh-reinvite.git gh-reinvite owner/repo username
+uvx --from uv tool install git+https://github.com/usfca-cs-tools/gh-reinvite.git gh-reinvite owner/repo username
 ```
 
 #### Option 3: Local development installation
 ```bash
 # Clone and install for development
-git clone https://github.com/yourusername/gh-reinvite.git
+git clone https://github.com/usfca-cs-tools/gh-reinvite.git
 cd gh-reinvite
 
 # Install in development mode
@@ -66,7 +66,7 @@ uv run gh-reinvite owner/repository username
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gh-reinvite.git
+git clone https://github.com/usfca-cs-tools/gh-reinvite.git
 cd gh-reinvite
 
 # Install the package
